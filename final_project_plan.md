@@ -79,7 +79,7 @@ I also anticipate that a number of columns will not really serve me any purposes
 #### Potential Limitations of the data
 
 - There is a chance that the data may be contain a number of missing values. In this case, I will have to determine how to deal with these data points in the best possible way for my analysis.
-- The data is also very large (1.8 gigabytes). This number will certainly go down after I perform the filtering operation, but I will need to think of ways to make my research as reproducible as possible in case the data does not fit on the Github repository.
+- The data is also very large (1.8 gigabytes). This number will certainly go down after I perform the filtering operation, but I will need to think of ways to make my research reproducible in case the data does not fit on the Github repository.
 
 ## Analysis That Will Be Conducted
 
