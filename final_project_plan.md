@@ -14,7 +14,9 @@ According to Wikipedia, crime has been steadily falling in NYC since the early 1
 
 I plan to analyse the New York City Complaint Data, which, according to the webpage, contains "all valid felony, misdemeanor, and violation crimes". I will not be using the entire dataset, as it spans from 2006 to 2017. I will be using data from 2006 and 2017, so two years worth of data. 
 
-My plan is to do an analysis on the number of reported crimes in 2006 and 2017. My goal is to identify trends in the crime rate and discover insight in the number and types of crimes committed in the city as well as the boroughs that the city is divided into.
+My plan is to do an analysis on the number of reported crimes in 2006 and 2017. My goal is to identify trends in the crime rate and discover insight in the number and types of crimes committed in the city as well as the boroughs that the city is divided into. 
+
+I hope that my analysis will allow the NYPD to better manage crime that occurs in the different boroughs of NYC. By dedicating resources towards the crimes that occur at a higher rate, they can hopefully reduce overall crime and make the city safer. I also hope that my analysis will allow people who live in NYC to get a better idea of crime patterns and be more aware of their surroundings. 
 
 ## Data
 
@@ -30,7 +32,7 @@ For clarity, I have reproduced the Open Data Terms of Use below, and it is also 
 
 ### NYPD Complaint Data Historic
 
-This dataset contains all valid crimes that were reported to the NYPD from 2006 till the end of 2017. These crimes include felonies, misdemeanors and other violent crimes. The dataset is very comprehensive, containing 6,036,095 rows of reported crime. There are 35 columns in the dataset. To make things easy for the user of the dataset, a data dictionary (available [here](https://data.cityofnewyork.us/api/views/qgea-i56i/files/ee823139-888e-4ad0-badf-e18e2674a9cb?download=true&filename=NYPD_Complaint_Historic_DataDictionary.xlsx)) provides a comprehensive description of the different columns and what they contain. My final repository will also contain this dictionary to make things easier for the end user. A description of the columns is shown below:
+This dataset contains all valid crimes that were reported to the NYPD from 2006 till the end of 2017. These crimes include felonies, misdemeanors and other violent crimes. The dataset is very comprehensive, containing 6,036,095 rows of reported crime. You can download the data as a dump containing all the data, or programmatically access it using the Socrata Open Data (SODA) API. There are 35 columns in the dataset. To make things easy for the user of the dataset, a data dictionary (available [here](https://data.cityofnewyork.us/api/views/qgea-i56i/files/ee823139-888e-4ad0-badf-e18e2674a9cb?download=true&filename=NYPD_Complaint_Historic_DataDictionary.xlsx)) provides a comprehensive description of the different columns and what they contain. My final repository will also contain this dictionary to make things easier for the end user. A description of the columns is shown below:
 
 | Name              | Data Type | Description                                                 |
 | ----------------- | --------- | ----------------------------------------------------------- |
@@ -72,4 +74,38 @@ This dataset contains all valid crimes that were reported to the NYPD from 2006 
 
 The data will need to be processed before it can be used for my analysis. The first and most obvious step is to filter the data so that it contains events from 2006 and 2017 only, as my analysis deals with data in this date range. I will filter the data and place it as a CSV in the repository to ensure reproducibility of my results.
 
-I also anticipate that a number of columns will not really serve me any purposes. These columns will need to be removed after further analysis of the data that I conduct during my research. I 
+I also anticipate that a number of columns will not really serve me any purposes. These columns will need to be removed after further analysis of the data that I conduct during my research. A number of columns appear redundant as well, so I will need to remove them to make the data cleaner and more usable. 
+
+#### Potential Limitations of the data
+
+- There is a chance that the data may be contain a number of missing values. In this case, I will have to determine how to deal with these data points in the best possible way for my analysis.
+- The data is also very large (1.8 gigabytes). This number will certainly go down after I perform the filtering operation, but I will need to think of ways to make my research as reproducible as possible in case the data does not fit on the Github repository.
+
+## Analysis That Will Be Conducted
+
+I anticipate this to be a research project where I use the data that I collect to answer a number of research questions. 
+
+### Research Question 1:
+
+**How clean is the data? Are there any obvious problems or issues with the numbers?**
+
+I want to see if there are any issues with the data that stand out and are quite obvious, and may impede my analysis. 
+
+### Research Question 2:
+
+**What's the overall trend in the number of reported incidents in 2006 as compared to 2017 in NYC? How about the trend in crimes reported on a borough basis?** 
+
+Without giving any consideration to the nature of the crime, I want to see how the numbers compare between 2006 and 2017. I want to do this for the whole city, and then investigate the numbers for each borough and see how they look like. *My hypothesis is that the overall and borough numbers have fallen from 2006 to 2017, as most literature available online seems to say so. It will be interesting to see if this actually holds true.* 
+
+### Research Question 3:
+
+**Taking into consideration the actual offense, how do the number look like when 2006 and 2017 are compared? How are the numbers when they are compared for the overall city and when they are split up according to the boroughs?** 
+
+In this research question, I take into consideration the actual nature of the crime, and see how the numbers compare between 2006 and 2017. I do this on a overall city basis and borough basis. *My hypothesis is again, that the numbers have fallen from 2006 to 2017.* 
+
+### Research Question 4:
+
+**Is there any element of seasonality with regards to the number of crimes committed?**
+
+I want to see if there is any seasonality associated with the crimes committed. *My hypothesis is that crime is most likely to be committed during certain periods, like the holiday season.*
+
