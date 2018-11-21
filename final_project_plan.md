@@ -125,16 +125,18 @@ Since the data I'll be using isn't in the tens of millions, this analysis will b
 
 # Human Centered Influences
 
-As a Data Scientist, I do not want to have a laser focus on compensation and personal achievements. The reason I chose this project is because it has the potential to help people and law enforcement better understand crime and potentially make the community more safer. 
+As a Data Scientist, I do not want to have a laser focus on compensation and personal achievements. The reason I chose this project is because it has the potential to help people and law enforcement better understand crime and potentially make the community safer. 
 
 Human centered design also plays a big role in methodology that I use for the analysis. The work will be fully reproducible and the data that I use will be easily available. The research can be viewed and reproduced by simply cloning the repo.
 
-# Sources
+# Sources and Resources
 
-I have used a number of sources to write this proposal. These are listed below.
+I have used a number of sources and resources to write this proposal. These are listed below.
 
-[1]: https://en.wikipedia.org/wiki/New_York_City_Police_Department
-[2]: https://en.wikipedia.org/wiki/New_York_City
-[3]: https://opendata.cityofnewyork.us
-[4]: https://www.wsj.com/articles/new-york-city-murders-on-the-rise-in-2018-nypd-data-shows-1531262595
+1. https://en.wikipedia.org/wiki/New_York_City_Police_Department 
+2. https://en.wikipedia.org/wiki/New_York_City 
+3. https://opendata.cityofnewyork.us 
+4. https://www.wsj.com/articles/new-york-city-murders-on-the-rise-in-2018-nypd-data-shows-1531262595 
+
+
 
