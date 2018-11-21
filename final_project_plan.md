@@ -86,7 +86,7 @@ I also anticipate that a number of columns will not really serve me any purposes
 
 - There is a chance that the data may be contain a number of missing values. In this case, I will have to determine how to deal with these data points in the best possible way for my analysis.
 - The data is also very large (1.8 gigabytes). This number will certainly go down after I perform the filtering operation, but I will need to think of ways to make my research reproducible in case the data does not fit on the Github repository.
-- The data does not list the gender of both the victim or the suspect. It lists the sex, which is binary in nature. Gender is not binary, and can be changed. The data only contains binary sex as a descriptor. This is a limitation, as the NYPD has incidents of discrimination and harrassment against transgendered individuals. For this reason, this data would have served quite a useful purpose to determine whether crimes against transgendered and non-binary individuals were underreported. Without this data, this analysis becomes impossible, as the sex does not address this question.
+- The data does not list the gender of both the victim or the suspect. It lists the sex, which is binary in nature. Gender is not binary, and can be changed. The data only contains binary sex as a descriptor. This is a limitation, as the NYPD has incidents of discrimination and harrassment against queer individuals. For this reason, this data would have served quite a useful purpose to determine whether crimes against queer and non-binary individuals were underreported. Without this data, this analysis becomes impossible, as the sex does not address this question.
 
 ## Analysis That Will Be Conducted
 
