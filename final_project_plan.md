@@ -116,7 +116,7 @@ In this research question, I take into consideration the actual nature of the cr
 
 I want to see if there is any seasonality associated with the crimes committed. *My hypothesis is that crime is most likely to be committed during certain periods, like the holiday season.*
 
-### Research Question 5:
+### Research Question 5 (Potential):
 
 **Are crimes against minorities underreported?**
 
