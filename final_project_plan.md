@@ -144,6 +144,7 @@ I have used a number of sources and resources to write this proposal. These are 
 2. https://en.wikipedia.org/wiki/New_York_City 
 3. https://opendata.cityofnewyork.us 
 4. https://www.wsj.com/articles/new-york-city-murders-on-the-rise-in-2018-nypd-data-shows-1531262595 
-
+5. https://nypost.com/2018/03/28/cop-of-the-month-allegedly-harassed-transgender-woman-during-traffic-stop/
+6. https://www.nydailynews.com/new-york/nyc-crime/nypd-targeting-minorities-marijuana-arrests-2018-article-1.3957719
 
 
