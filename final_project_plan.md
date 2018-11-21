@@ -12,7 +12,7 @@ New York City (NYC) is the largest city in the United States, and one of the mos
 
 In addition to having a large number of people, the city has a large and dedicated police force as well. The New York Police Department (NYPD) comprises 38,422 police officers. The department also has a number of specialized task forces, whos job is to provide specialized services like criminal intelligence, bomb detection and disposal, terrorism detection etc. Keep in mind that the NYPD is dedicated to serving the city of New York only. The state has its own police department. 
 
-According to Wikipedia, crime has been steadily falling in NYC since the early 1990s, and it is considered to be one of the safest city in the world. The city of New York is divided into  5 boroughs (administrative divisions). It would be interesting to analyse the types of crime and number of crimes committed by borough, and do an analysis on how social and economic factors effect the type and number of crimes committed in specific boroughs. 
+According to Wikipedia, crime has been steadily falling in NYC since the early 1990s, and it is considered to be one of the safest city in the world. The city of New York is divided into  5 boroughs (administrative divisions). It would be interesting to analyse the types and number of crimes committed in the different boroughs of New York City.
 
 I plan to analyse the New York City Complaint Data, which, according to the webpage, contains "all valid felony, misdemeanor, and violation crimes". I will not be using the entire dataset, as it spans from 2006 to 2017. I will be using data from 2006 and 2017, so two years worth of data. 
 
