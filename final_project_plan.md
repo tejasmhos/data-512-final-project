@@ -16,6 +16,8 @@ I plan to analyse the New York City Complaint Data, which, according to the webp
 
 My plan is to do an analysis on the number of reported crimes in 2006 and 2017. My goal is to identify trends in the crime rate and discover insight in the number and types of crimes committed in the city as well as the boroughs that the city is divided into. 
 
+The reasons for higher crime rate are many and varied. Some included poverty due to inequitable distribution of wealth, lack of opportunities, politics, violence in media etc. Oftentimes, an increase in the number of police will do no good to control or reduce crime until these causes of crimes are addressed. 
+
 I hope that my analysis will allow people to get a better understanding about the type and kinds of crime that occur in the city and at a deeper level, in the borough that they live in. I'm hoping this analysis will allow people who live in NYC to be better prepared and aware of their surroundings, and reduce the chance of them becoming victims of criminal activity. The raw data is tough to analyse, and I hope my analysis will make things much more interpretable. 
 
 ## Data
