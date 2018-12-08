@@ -10,15 +10,15 @@ Fall 2018
 
 New York City (NYC) is the largest city in the United States, and one of the most influential cities in the world. It has a population of 8,175,133 as of 2010. It's a very diverse city with people from all around the world. 
 
-In addition to having a large number of people, the city has a large and dedicated police force as well. The New York Police Department (NYPD) comprises 38,422 police officers. The department also has a number of specialized task forces, whos job is to provide specialized services like criminal intelligence, bomb detection and disposal, terrorism detection etc. Keep in mind that the NYPD is dedicated to serving the city of New York only. The state has its own police department. 
-
 According to Wikipedia, crime has been steadily falling in NYC since the early 1990s, and it is considered to be one of the safest city in the world. The city of New York is divided into  5 boroughs (administrative divisions). It would be interesting to analyse the types and number of crimes committed in the different boroughs of New York City.
 
 I plan to analyse the New York City Complaint Data, which, according to the webpage, contains "all valid felony, misdemeanor, and violation crimes". I will not be using the entire dataset, as it spans from 2006 to 2017. I will be using data from 2006 and 2017, so two years worth of data. 
 
 My plan is to do an analysis on the number of reported crimes in 2006 and 2017. My goal is to identify trends in the crime rate and discover insight in the number and types of crimes committed in the city as well as the boroughs that the city is divided into. 
 
-I hope that my analysis will allow the NYPD to better manage crime that occurs in the different boroughs of NYC. By dedicating resources towards the crimes that occur at a higher rate, they can hopefully reduce overall crime and make the city safer. I also hope that my analysis will allow people who live in NYC to get a better idea of crime patterns and be more aware of their surroundings. 
+The reasons for higher crime rate are many and varied. Some included poverty due to inequitable distribution of wealth, lack of opportunities, politics, violence in media etc. Oftentimes, an increase in the number of police will do no good to control or reduce crime until these causes of crimes are addressed. 
+
+I hope that my analysis will allow people to get a better understanding about the type and kinds of crime that occur in the city and at a deeper level, in the borough that they live in. I'm hoping this analysis will allow people who live in NYC to be better prepared and aware of their surroundings, and reduce the chance of them becoming victims of criminal activity. The raw data is tough to analyse, and I hope my analysis will make things much more interpretable. 
 
 ## Data
 
@@ -86,6 +86,7 @@ I also anticipate that a number of columns will not really serve me any purposes
 
 - There is a chance that the data may be contain a number of missing values. In this case, I will have to determine how to deal with these data points in the best possible way for my analysis.
 - The data is also very large (1.8 gigabytes). This number will certainly go down after I perform the filtering operation, but I will need to think of ways to make my research reproducible in case the data does not fit on the Github repository.
+- The data does not list the gender of both the victim or the suspect. It lists the sex, which is binary in nature. Gender is not binary, and can be changed. The data only contains binary sex as a descriptor. This is a limitation, as the NYPD has incidents of discrimination and harrassment against queer individuals. For this reason, this data would have served quite a useful purpose to determine whether crimes against queer and non-binary individuals were underreported. Without this data, this analysis becomes impossible, as the sex does not address this question.
 
 ## Analysis That Will Be Conducted
 
@@ -115,6 +116,12 @@ In this research question, I take into consideration the actual nature of the cr
 
 I want to see if there is any seasonality associated with the crimes committed. *My hypothesis is that crime is most likely to be committed during certain periods, like the holiday season.*
 
+### Research Question 5 (Potential):
+
+**Are crimes against minorities underreported?**
+
+One thing that the NYPD institutes is a stop and frisk policy, where they stop random individuals and conduct searches on them. There is also a history of racial bias in the police department. I want to investigate whether this leads to underreported crime rates among minorities. *My hypothesis is that this is improving, and the underreporting rates have gotten lower in the past few year.* My data has race as a feature, but I'm still a little unsure as to whether the data can answer this question. This is something I will need to further investigate as I get a chance to analyse my data set. 
+
 ## Deliverables and Toolset
 
 The deliverables will be in the form of a Jupyter notebook that contains all the code, outputs and visualizations that are conducted. The end user will be able to re-run all the code and get back the exact same results that I've gotten.
@@ -125,7 +132,7 @@ Since the data I'll be using isn't in the tens of millions, this analysis will b
 
 # Human Centered Influences
 
-As a Data Scientist, I do not want to have a laser focus on compensation and personal achievements. The reason I chose this project is because it has the potential to help people and law enforcement better understand crime and potentially make the community safer. 
+As a Data Scientist, I do not want to have a laser focus on compensation and personal achievements. The reason I chose this project is because it has the potential to help people better understand crime and take reasonable actions to prevent themselves from being victims.  
 
 Human centered design also plays a big role in methodology that I use for the analysis. The work will be fully reproducible and the data that I use will be easily available. The research can be viewed and reproduced by simply cloning the repo.
 
@@ -133,10 +140,10 @@ Human centered design also plays a big role in methodology that I use for the an
 
 I have used a number of sources and resources to write this proposal. These are listed below.
 
-1. https://en.wikipedia.org/wiki/New_York_City_Police_Department 
-2. https://en.wikipedia.org/wiki/New_York_City 
-3. https://opendata.cityofnewyork.us 
-4. https://www.wsj.com/articles/new-york-city-murders-on-the-rise-in-2018-nypd-data-shows-1531262595 
-
+1. https://en.wikipedia.org/wiki/New_York_City 
+2. https://opendata.cityofnewyork.us 
+3. https://www.wsj.com/articles/new-york-city-murders-on-the-rise-in-2018-nypd-data-shows-1531262595 
+4. https://nypost.com/2018/03/28/cop-of-the-month-allegedly-harassed-transgender-woman-during-traffic-stop/
+5. https://www.nydailynews.com/new-york/nyc-crime/nypd-targeting-minorities-marijuana-arrests-2018-article-1.3957719
 
 
