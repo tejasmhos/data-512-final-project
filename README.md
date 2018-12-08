@@ -72,6 +72,34 @@ This dataset contains all valid crimes that were reported to the NYPD from 2006 
 
 I use a bucketed form of data that consolidates the 62 different kinds of crimes into 10 different buckets. This has been cached in the repository, and by default, the notebook uses the cached version. You can also process the data yourself and use that, however, it is a time consuming process that takes ~5 hours. There is an option in the notebook to disable the cache and create your own data.
 
+## Research Questions
+
+Four research questions were answered in this analysis. They are shown below:
+
+### Research Question 1:
+
+**How clean is the data? Are there any obvious problems or issues with the numbers?**
+
+I want to see if there are any issues with the data that stand out and are quite obvious, and may impede my analysis. 
+
+### Research Question 2:
+
+**What's the overall trend in the number of reported incidents in 2006 as compared to 2017 in NYC? How about the trend in crimes reported on a borough basis?** 
+
+Without giving any consideration to the nature of the crime, I want to see how the numbers compare between 2006 and 2017. I want to do this for the whole city, and then investigate the numbers for each borough and see how they look like. *My hypothesis is that the overall and borough numbers have fallen from 2006 to 2017, as most literature available online seems to say so. It will be interesting to see if this actually holds true.* 
+
+### Research Question 3:
+
+**Taking into consideration the actual offense, how does the number look like when 2006 and 2017 are compared? How are the numbers when they are compared for the overall city and when they are split up according to the boroughs?** 
+
+In this research question, I take into consideration the actual nature of the crime, and see how the numbers compare between 2006 and 2017. I do this on a overall city basis and borough basis. *My hypothesis is again, that the numbers have fallen from 2006 to 2017.* 
+
+### Research Question 4:
+
+**Is there any element of seasonality with regards to the number of crimes committed?**
+
+I want to see if there is any seasonality associated with the crimes committed. *My hypothesis is that crime is most likely to be committed during certain periods, like the holiday season.*
+
 ## Reproducibility
 
 This research is fully reproducible. That means you can conduct this research and get the exact results that are shown in the notebook. To begin with, you need to download the repository by executing the following command: `git clone https://github.com/tejasmhos/data-512-final-project`. This will download the code and data required for the analysis. After doing this, All you need to do is start the Jupyter notebook and execute all the cells. 
