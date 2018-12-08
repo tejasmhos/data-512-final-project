@@ -8,6 +8,10 @@ The complete and thorough analysis is available in the file [Data-512-Final-Proj
 
 This project was developed for Data 512 (Human Centered Data Science), University of Washington. This is my final project for the course. 
 
+## Intended Use Case
+
+I hope that this research project will allow people who live in New York City to get a better idea of the quantity and types of crimes that occur in their city and their borough. Hopefully, by having more knowledge on crime and its occurrence, they can be safer and more aware of their surroundings and avoid falling victim to any of these crimes. 
+
 ## Data
 
 I used the **NYPD Complaint Data Historic** dataset. According to the webpage, this dataset "includes all valid felony, misdemeanor, and violation crimes reported to the New York City Police Department (NYPD) from 2006 to the end of last year (2017)." The data is available as a part of the NYC OpenData program. This data is publicly available and there are no restrictions regarding the usage of the data.
